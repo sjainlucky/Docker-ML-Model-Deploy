@@ -14,6 +14,11 @@ mnist-inference/
 ├── service.yaml # Kubernetes service configuration
 └── README.md # Project documentation
 
+## Steps to Run
+
+1. docker build --platform=linux/arm64/v8 -t my-pytorch-app:latest .
+2. docker run --name mycontainer -p 80:80 my-pytorch-app:latest
+
 ## Additional Information
 
 ### Model Architecture:
