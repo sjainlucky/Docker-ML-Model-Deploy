@@ -28,7 +28,5 @@ References
 PyTorch
 FastAPI
 MNIST Dataset
-License
-This project is licensed under the MIT License.
 
 Make sure to update the `<load-balancer-ip>` in the example request section with the actual IP address of your Kubernetes load balancer after deploying the service.
