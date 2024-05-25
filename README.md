@@ -14,19 +14,27 @@ mnist-inference/
 ├── service.yaml # Kubernetes service configuration
 └── README.md # Project documentation
 
-Additional Information
-Model Architecture: A simple neural network with one hidden layer.
-Dataset: MNIST handwritten digits.
-Files Description
+## Additional Information
+
+### Model Architecture:
+
+A simple neural network with one hidden layer.
+
+### Dataset:
+
+MNIST handwritten digits.
+
+### Files Description
+
 app.py: Implements the FastAPI server and the prediction endpoint.
 inference.py: Contains the model definition and the prediction function.
 train.py: Script to train the neural network on the MNIST dataset.
 Dockerfile: Instructions to containerize the application.
 deployment.yaml: Kubernetes deployment configuration.
 service.yaml: Kubernetes service configuration.
-References
+
+## References
+
 PyTorch
 FastAPI
 MNIST Dataset
-
-Make sure to update the `<load-balancer-ip>` in the example request section with the actual IP address of your Kubernetes load balancer after deploying the service.
